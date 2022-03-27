@@ -4,7 +4,7 @@ import renderWithRouter from './renderWithRouter';
 import pokemons from '../data';
 import FavoritePokemons from '../components/FavoritePokemons';
 
-describe('Teste o componente <FavoritePokemons.js />', () => {
+describe('Teste o componente FavoritePokemons', () => {
   // verifa mensagem caso nao tenha poke favorito
   test('verifica na tela a mensagem :no favorite pokemon found.', () => {
     renderWithRouter(<FavoritePokemons />);
