@@ -17,5 +17,6 @@ describe('Teste o componente NotFound ', () => {
       { name: /Pikachu crying because the page requested was not found/i });
     expect(programador).toBeInTheDocument();
     expect(programador.src).toBe('https://media.giphy.com/media/kNSeTs31XBZ3G/giphy.gif');
+    screen.logTestingPlaygroundURL();
   });
 });
